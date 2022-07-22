@@ -4,7 +4,8 @@ body {
 }
 
 #topBarDiv {
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     display: grid;
     grid-template-columns: auto auto auto auto;
     top: 0;
@@ -21,10 +22,6 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
-
-/* #topBarNavButton {
-    grid-column: 1;
-} */
 
 #topBarNavButtonDiv {
     display: block;
@@ -48,4 +45,30 @@ body {
     grid-column-start: 2;
     grid-column-end: 4;
     font-size: 19px;
+}
+
+/* #mainContent {
+    align-items: center;
+    justify-content: center;
+} */
+
+#restNameDisplay {
+    color: aqua;
+    /* background-color: white; */
+    font-size: xx-large;
+    text-align: center;
+}
+
+.container {
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
