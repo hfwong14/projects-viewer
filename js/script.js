@@ -12,7 +12,10 @@ var restNameList = [
     'KFC',
     '大快活',
     'Pizza Hut',
-    '七喜'
+    '七喜',
+    '鐵花村',
+    '趣園麵家',
+    '壽司'
 ]
 
 var restCount = restNameList.length
