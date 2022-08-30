@@ -1,10 +1,18 @@
 
 var restNameList = [
-    '無所不用其極',
-    '煙味番茄醬',
-    '台灣野隔離',
-    '香港粉麵',
-    '雙喜燒味'
+    '吉野家',
+    'Itamama',
+    '太興',
+    '八方雲集',
+    'McDonald\'s',
+    'Mos Burger',
+    'Subway',
+    '東泰',
+    '南記',
+    'KFC',
+    '大快活',
+    'Pizza Hut',
+    '七喜'
 ]
 
 var restCount = restNameList.length
